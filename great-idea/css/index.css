@@ -64,3 +64,139 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+body {
+    margin: 40px 80px 40px 80px
+}
+
+h1 , h2 , h3 , h4 {
+    font-family: 'Bangers', sans-serif;
+}
+
+button , p , address , nav , footer {
+   font-family: 'Titillium Web', sans-serif;
+}
+
+h2, h3, h4 {
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.nav-a {
+    padding-top: 15px;
+}
+.nav-img {
+    margin-left: 40px;
+}
+
+
+.container nav a {
+    color: gray;
+    text-decoration: none;
+}
+
+.hero {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 400px;
+}
+.hero-h1 , .hero-image {
+    display: inline-block;
+    width: 48%;
+    box-sizing: border-box;
+    top: 0;
+    bottom: 0; 
+    padding-left: 40px;
+}
+.hero-h1 {
+    height: 100%;
+}
+.h1-content {
+    margin-top: 100px;
+    box-sizing: border-box;
+    height: 75%;
+    text-align: center;
+    font-size: 60px
+}
+.hero button {
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 0px 30% 10px 30%;
+    font-size: 20px;
+    padding: 0px 30px 0px 30px;
+
+}
+
+.hero-image {
+    margin: 0;
+    float: right;
+    height: 100%;
+}
+
+.info {
+    margin-top: 40px;
+    border-top: 1.5px solid black;
+    
+}
+
+.features , .about { 
+    display: inline-block;
+    width: 48%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.features {
+    padding-right: 5px
+}
+
+.info p {
+    font-size: 12px;
+}
+.middle-img img{
+    display: box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.more-info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1.5px solid black;
+
+}
+.services , .product , .vision {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.more-info p {
+    font-size: 12px;
+}
+
+.footer {
+    line-break: 0px;
+    font-size: 12px;
+
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+}
+
+
+
